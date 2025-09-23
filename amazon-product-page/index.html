@@ -1,522 +1,0 @@
-<!DOCTYPE html>
-<html lang="ar" dir="rtl">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="صفحة منتج أمازون - تسوق آمن وسريع في سوريا - توصيل مجاني - أسعار بالليرة السورية">
-        <title>صفحة منتج أمازون - سوريا</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <header class="header">
-            <!-- الشريط العلوي -->
-            <div class="top-bar">
-                <div class="container">
-                    <div class="top-bar-content">
-                        <div class="delivery-info">
-                            <span>🚚 توصيل مجاني للطلبات أكثر من 50,000 ليرة سورية</span>
-                        </div>
-                        <div class="user-actions">
-                            <label for="loginTrigger" class="login-btn">تسجيل الدخول</label>
-                            <label for="registerTrigger" class="register-btn">إنشاء حساب</label>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- الهيدر الرئيسي -->
-            <div class="main-header">
-                <div class="container">
-                    <div class="header-content">
-                        <!-- الشعار -->
-                        <div class="logo">
-                            <a href="#" class="logo-link">
-                                <span class="logo-text">amazon</span>
-                            </a>
-                        </div>
-
-                        <!-- شريط البحث -->
-                        <div class="search-bar">
-                            <form class="search-form">
-                                <select class="search-category">
-                                    <option>جميع الفئات</option>
-                                    <option>الإلكترونيات</option>
-                                    <option>الملابس</option>
-                                    <option>المنزل والحديقة</option>
-                                </select>
-                                <input type="text" placeholder="ابحث عن منتج..." class="search-input">
-                                <button type="submit" class="search-btn">🔍</button>
-                            </form>
-                        </div>
-
-                        <!-- قائمة المستخدم -->
-                        <div class="user-menu">
-                            <div class="account">
-                                <a href="#" class="account-link">
-                                    <span class="account-text">مرحباً، تسجيل الدخول</span>
-                                    <span class="account-subtitle">الحساب والقوائم</span>
-                                </a>
-                            </div>
-                            <div class="orders">
-                                <a href="#" class="orders-link">
-                                    <span class="orders-text">الطلبات</span>
-                                    <span class="orders-subtitle">والتتبع</span>
-                                </a>
-                            </div>
-                            <div class="cart">
-                                <a href="#" class="cart-link">
-                                    <span class="cart-icon">🛒</span>
-                                    <span class="cart-count">0</span>
-                                    <span class="cart-text">السلة</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- شريط التنقل -->
-            <nav class="navigation">
-                <div class="container">
-                    <div class="nav-content">
-                        <div class="all-categories">
-                            <button class="categories-btn">
-                                <span>☰</span>
-                                <span>جميع الفئات</span>
-                            </button>
-                        </div>
-                        <div class="nav-links">
-                            <a href="#" class="nav-link">العروض اليومية</a>
-                            <a href="#" class="nav-link">الأكثر مبيعاً</a>
-                            <a href="#" class="nav-link">الجديد</a>
-                            <a href="#" class="nav-link">الإلكترونيات</a>
-                            <a href="#" class="nav-link">الملابس</a>
-                            <a href="#" class="nav-link">المنزل</a>
-                            <a href="#" class="nav-link">سوريا</a>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-        </header>
-        <main class="main-content">
-            <!-- مسار التنقل -->
-            <div class="breadcrumb">
-                <div class="container">
-                    <nav class="breadcrumb-nav">
-                        <a href="#" class="breadcrumb-link">الرئيسية</a>
-                        <span class="breadcrumb-separator">›</span>
-                        <a href="#" class="breadcrumb-link">سوريا</a>
-                        <span class="breadcrumb-separator">›</span>
-                        <a href="#" class="breadcrumb-link">الإلكترونيات</a>
-                        <span class="breadcrumb-separator">›</span>
-                        <a href="#" class="breadcrumb-link">الهواتف الذكية</a>
-                        <span class="breadcrumb-separator">›</span>
-                        <span class="breadcrumb-current">iPhone 15 Pro Max</span>
-                    </nav>
-                </div>
-            </div>
-
-            <!-- المحتوى الرئيسي للمنتج -->
-            <div class="product-container">
-                <div class="container">
-                    <div class="product-layout">
-                        <!-- معرض الصور -->
-                        <section class="product-gallery">
-                            <div class="gallery-main">
-                                <div class="main-image">
-                                    <div class="product-image-placeholder" id="mainProductImage">
-                                        <div class="image-content">
-                                            <div class="phone-mockup">
-                                                <div class="phone-screen">
-                                                    <div class="screen-content">
-                                                        <div class="notch">📱</div>
-                                                        <div class="app-icons">
-                                                            <span>📞</span>
-                                                            <span>💬</span>
-                                                            <span>📷</span>
-                                                            <span>⚙️</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="image-label">iPhone 15 Pro Max</div>
-                                        </div>
-                                    </div>
-                                    <button class="zoom-btn">🔍</button>
-                                </div>
-                            </div>
-
-                            <div class="gallery-thumbnails">
-                                <div class="thumbnail active">
-                                    <div class="thumbnail-placeholder natural">
-                                        <span>1</span>
-                                    </div>
-                                </div>
-                                <div class="thumbnail">
-                                    <div class="thumbnail-placeholder blue">
-                                        <span>2</span>
-                                    </div>
-                                </div>
-                                <div class="thumbnail">
-                                    <div class="thumbnail-placeholder green">
-                                        <span>3</span>
-                                    </div>
-                                </div>
-                                <div class="thumbnail">
-                                    <div class="thumbnail-placeholder white">
-                                        <span>4</span>
-                                    </div>
-                                </div>
-                                <div class="thumbnail">
-                                    <div class="thumbnail-placeholder black">
-                                        <span>5</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-
-                        <!-- معلومات المنتج -->
-                        <section class="product-info">
-                            <div class="product-header">
-                                <h1 class="product-title">iPhone 15 Pro Max - 256GB - تيتانيوم طبيعي</h1>
-                                <div class="product-rating">
-                                    <div class="stars">
-                                        <span class="star">⭐</span>
-                                        <span class="star">⭐</span>
-                                        <span class="star">⭐</span>
-                                        <span class="star">⭐</span>
-                                        <span class="star">⭐</span>
-                                    </div>
-                                    <a href="#" class="rating-link">4.8 من 5 (2,847 تقييم)</a>
-                                </div>
-                            </div>
-
-                            <div class="product-price">
-                                <div class="price-current">1,250,000 ليرة سورية</div>
-                                <div class="price-original">1,500,000 ليرة سورية</div>
-                                <div class="price-save">وفر 250,000 ليرة سورية (17%)</div>
-                            </div>
-
-                            <div class="product-features">
-                                <h3>المميزات الرئيسية:</h3>
-                                <ul class="features-list">
-                                    <li>شاشة Super Retina XDR مقاس 6.7 بوصة</li>
-                                    <li>معالج A17 Pro فائق السرعة</li>
-                                    <li>كاميرا رئيسية 48 ميجابكسل مع تكبير بصري 5x</li>
-                                    <li>تصوير فيديو 4K ProRes</li>
-                                    <li>بطارية تدوم طوال اليوم</li>
-                                    <li>مقاوم للماء والغبار (IP68)</li>
-                                </ul>
-                            </div>
-
-                            <div class="product-options">
-                                <div class="option-group">
-                                    <label>اللون:</label>
-                                    <div class="color-options">
-                                        <button class="color-option active" data-color="تيتانيوم طبيعي" style="background-color: #8B7355;"></button>
-                                        <button class="color-option" data-color="تيتانيوم أزرق" style="background-color: #4A90E2;"></button>
-                                        <button class="color-option" data-color="تيتانيوم أبيض" style="background-color: #F5F5F5;"></button>
-                                        <button class="color-option" data-color="تيتانيوم أسود" style="background-color: #2C2C2C;"></button>
-                                    </div>
-                                </div>
-
-                                <div class="option-group">
-                                    <label>السعة:</label>
-                                    <div class="storage-options">
-                                        <button class="storage-option">128GB</button>
-                                        <button class="storage-option active">256GB</button>
-                                        <button class="storage-option">512GB</button>
-                                        <button class="storage-option">1TB</button>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="product-actions">
-                                <button class="btn-add-to-cart">أضف للسلة</button>
-                                <button class="btn-buy-now">اشتري الآن</button>
-                                <button class="btn-wishlist">❤️ أضف للمفضلة</button>
-                            </div>
-
-                            <div class="product-delivery">
-                        <div class="delivery-option">
-                            <span class="delivery-icon">🚚</span>
-                            <div class="delivery-text">
-                                <strong>توصيل مجاني</strong>
-                                <span>توصيل خلال 3-5 أيام عمل في جميع أنحاء سوريا</span>
-                            </div>
-                        </div>
-                        <div class="delivery-option">
-                            <span class="delivery-icon">🏪</span>
-                            <div class="delivery-text">
-                                <strong>استلام من المتجر</strong>
-                                <span>متوفر في دمشق، حلب، حمص، حماة، اللاذقية</span>
-                            </div>
-                        </div>
-                        <div class="delivery-option">
-                            <span class="delivery-icon">💳</span>
-                            <div class="delivery-text">
-                                <strong>طرق الدفع</strong>
-                                <span>نقداً عند الاستلام، بطاقات محلية، تحويل بنكي</span>
-                            </div>
-                        </div>
-                            </div>
-                        </section>
-                    </div>
-                </div>
-            </div>
-        </main>
-        <footer class="footer">
-            <!-- العودة للأعلى -->
-            <div class="back-to-top">
-                <button class="back-to-top-btn">
-                    العودة للأعلى
-                </button>
-            </div>
-
-            <!-- المحتوى الرئيسي للفوتر -->
-            <div class="footer-content">
-                <div class="container">
-                    <div class="footer-sections">
-                        <!-- قسم "اعرف المزيد" -->
-                        <div class="footer-section">
-                            <h3>اعرف المزيد</h3>
-                            <ul>
-                                <li><a href="#">حول أمازون</a></li>
-                                <li><a href="#">الوظائف</a></li>
-                                <li><a href="#">الأخبار</a></li>
-                                <li><a href="#">المستثمرون</a></li>
-                                <li><a href="#">أمازون للشركات</a></li>
-                            </ul>
-                        </div>
-
-                        <!-- قسم "كسب المال معنا" -->
-                        <div class="footer-section">
-                            <h3>كسب المال معنا</h3>
-                            <ul>
-                                <li><a href="#">بيع على أمازون</a></li>
-                                <li><a href="#">بيع على أمازون للأعمال</a></li>
-                                <li><a href="#">كن شريكاً</a></li>
-                                <li><a href="#">نشر كتبك</a></li>
-                                <li><a href="#">استضافة على AWS</a></li>
-                            </ul>
-                        </div>
-
-                        <!-- قسم "منتجات الدفع" -->
-                        <div class="footer-section">
-                            <h3>منتجات الدفع</h3>
-                            <ul>
-                                <li><a href="#">بطاقة أمازون</a></li>
-                                <li><a href="#">تسوق بالنقاط</a></li>
-                                <li><a href="#">تحويل الأموال</a></li>
-                                <li><a href="#">تحويل العملات</a></li>
-                            </ul>
-                        </div>
-
-                        <!-- قسم "الحصول على المساعدة" -->
-                        <div class="footer-section">
-                            <h3>الحصول على المساعدة</h3>
-                            <ul>
-                                <li><a href="#">مركز المساعدة</a></li>
-                                <li><a href="#">حسابك</a></li>
-                                <li><a href="#">الشحن والتسليم في سوريا</a></li>
-                                <li><a href="#">المرتجعات والاستبدال</a></li>
-                                <li><a href="#">إدارة المحتوى والأجهزة</a></li>
-                                <li><a href="#">خدمة العملاء - سوريا</a></li>
-                            </ul>
-                        </div>
-
-                        <!-- قسم "خدمات سوريا" -->
-                        <div class="footer-section">
-                            <h3>خدمات سوريا</h3>
-                            <ul>
-                                <li><a href="#">التوصيل في دمشق</a></li>
-                                <li><a href="#">التوصيل في حلب</a></li>
-                                <li><a href="#">التوصيل في حمص</a></li>
-                                <li><a href="#">التوصيل في حماة</a></li>
-                                <li><a href="#">التوصيل في اللاذقية</a></li>
-                                <li><a href="#">التوصيل في باقي المحافظات</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- شريط اللغات والمناطق -->
-            <div class="footer-languages">
-                <div class="container">
-                    <div class="language-section">
-                        <div class="amazon-logo-footer">
-                            <span class="logo-text-footer">amazon</span>
-                        </div>
-                        <div class="language-links">
-                            <a href="index-en.html" class="language-link">
-                                <span class="flag">🇺🇸</span>
-                                <span>English</span>
-                            </a>
-                            <a href="#" class="language-link">
-                                <span class="flag">🇪🇸</span>
-                                <span>Español</span>
-                            </a>
-                            <a href="#" class="language-link">
-                                <span class="flag">🇫🇷</span>
-                                <span>Français</span>
-                            </a>
-                            <a href="#" class="language-link">
-                                <span class="flag">🇨🇳</span>
-                                <span>中文</span>
-                            </a>
-                            <a href="#" class="language-link active">
-                                <span class="flag">🇸🇾</span>
-                                <span>العربية</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- الفوتر السفلي -->
-            <div class="footer-bottom">
-                <div class="container">
-                    <div class="footer-bottom-content">
-                        <div class="footer-links">
-                            <a href="#" class="footer-link">أمازون موسيقى</a>
-                            <a href="#" class="footer-link">AmazonGlobal</a>
-                            <a href="#" class="footer-link">أمازون الإعلانية</a>
-                            <a href="#" class="footer-link">6pm</a>
-                            <a href="#" class="footer-link">Fabric</a>
-                            <a href="#" class="footer-link">Goodreads</a>
-                            <a href="#" class="footer-link">IMDb</a>
-                            <a href="#" class="footer-link">Shopbop</a>
-                            <a href="#" class="footer-link">Woot!</a>
-                            <a href="#" class="footer-link">Zappos</a>
-                            <a href="#" class="footer-link">أمازون سوريا</a>
-                        </div>
-                        <div class="footer-copyright">
-                            <p>&copy; 1996-2025, Amazon.com, Inc. أو شركاتها التابعة - سوريا</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-
-        <!-- نافذة تسجيل الدخول -->
-        <input type="checkbox" id="loginTrigger" class="modal-trigger">
-        <div id="loginModal" class="modal">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h2>تسجيل الدخول</h2>
-                    <label for="loginTrigger" class="close">&times;</label>
-                </div>
-                <form class="auth-form" id="loginForm">
-                    <div class="form-group">
-                        <label for="loginEmail">البريد الإلكتروني أو رقم الهاتف</label>
-                        <input type="text" id="loginEmail" name="email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="loginPassword">كلمة المرور</label>
-                        <input type="password" id="loginPassword" name="password" required>
-                    </div>
-                    <div class="form-options">
-                        <label class="checkbox-label">
-                            <input type="checkbox" name="remember">
-                            <span class="checkmark"></span>
-                            تذكرني
-                        </label>
-                        <a href="#" class="forgot-password">نسيت كلمة المرور؟</a>
-                    </div>
-                    <button type="submit" class="btn-submit">تسجيل الدخول</button>
-                    <div class="form-divider">
-                        <span>أو</span>
-                    </div>
-                    <button type="button" class="btn-social">
-                        <span>📱</span>
-                        تسجيل الدخول برقم الهاتف
-                    </button>
-                </form>
-                <div class="modal-footer">
-                    <p>ليس لديك حساب؟ <label for="registerTrigger" class="switch-modal">إنشاء حساب جديد</label></p>
-                </div>
-            </div>
-        </div>
-
-        <!-- نافذة إنشاء حساب -->
-        <input type="checkbox" id="registerTrigger" class="modal-trigger">
-        <div id="registerModal" class="modal">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h2>إنشاء حساب جديد</h2>
-                    <label for="registerTrigger" class="close">&times;</label>
-                </div>
-                <form class="auth-form" id="registerForm">
-                    <div class="form-group">
-                        <label for="registerName">الاسم الكامل</label>
-                        <input type="text" id="registerName" name="fullName" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="registerEmail">البريد الإلكتروني</label>
-                        <input type="email" id="registerEmail" name="email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="registerPhone">رقم الهاتف</label>
-                        <input type="tel" id="registerPhone" name="phone" placeholder="+963 9XX XXX XXX" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="registerPassword">كلمة المرور</label>
-                        <input type="password" id="registerPassword" name="password" required>
-                        <div class="password-strength">
-                            <div class="strength-bar">
-                                <div class="strength-fill"></div>
-                            </div>
-                            <span class="strength-text">قوة كلمة المرور</span>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="confirmPassword">تأكيد كلمة المرور</label>
-                        <input type="password" id="confirmPassword" name="confirmPassword" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="registerCity">المدينة</label>
-                        <select id="registerCity" name="city" required>
-                            <option value="">اختر المدينة</option>
-                            <option value="damascus">دمشق</option>
-                            <option value="aleppo">حلب</option>
-                            <option value="homs">حمص</option>
-                            <option value="hama">حماة</option>
-                            <option value="latakia">اللاذقية</option>
-                            <option value="tartus">طرطوس</option>
-                            <option value="deir-ez-zor">دير الزور</option>
-                            <option value="raqqa">الرقة</option>
-                            <option value="hasaka">الحسكة</option>
-                            <option value="quneitra">القنيطرة</option>
-                            <option value="daraa">درعا</option>
-                            <option value="sweida">السويداء</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="registerAddress">العنوان التفصيلي</label>
-                        <textarea id="registerAddress" name="address" rows="3" placeholder="الحي، الشارع، رقم المبنى"></textarea>
-                    </div>
-                    <div class="form-options">
-                        <label class="checkbox-label">
-                            <input type="checkbox" name="terms" required>
-                            <span class="checkmark"></span>
-                            أوافق على <a href="#" class="terms-link">شروط الاستخدام</a> و <a href="#" class="privacy-link">سياسة الخصوصية</a>
-                        </label>
-                    </div>
-                    <div class="form-options">
-                        <label class="checkbox-label">
-                            <input type="checkbox" name="newsletter">
-                            <span class="checkmark"></span>
-                            أريد تلقي العروض والأخبار عبر البريد الإلكتروني
-                        </label>
-                    </div>
-                    <button type="submit" class="btn-submit">إنشاء الحساب</button>
-                </form>
-                <div class="modal-footer">
-                    <p>لديك حساب بالفعل؟ <label for="loginTrigger" class="switch-modal">تسجيل الدخول</label></p>
-                </div>
-            </div>
-        </div>
-
-    </body>
-</html>
