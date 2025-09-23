@@ -1,0 +1,51 @@
+body {
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.avatar {
+
+    width: 150px;
+
+}
+
+/*
+Challenge:
+1. Give the card div a class (name it "card")
+2. Select the card class and give it a dotted blue border
+3. Add 20 pixels of padding on all sides of the card
+*/
+.card{
+    display: flex;
+    padding: 20px;
+     /*
+    Challenge:
+    Give the card a width of 400px wide and center it.
+    */
+    width: 400px;
+    margin: 0 auto;
+     /*
+    Challenge:
+    Add horizontal space around the flex children.
+    Hint: google "justify content"
+    */
+    justify-content: space-around;
+    text-align: center;
+
+    background: #ddebf8;
+    color: #2b2839;
+    border-bottom: 6px solid #d8cefe;
+}
+/* 
+    Challenge:
+    Use what you've just learned to fix our card's broken 
+    column layout (make it two-column instead of four-column)
+     */
+/*
+Challenge:
+Create a utility class for the dotted blue border.
+Give the class to both flexbox children in the HTML.
+*/
+.border-blue{
+    border: 1px dotted blue;
+}
